@@ -27,7 +27,7 @@
     "mocha": "^1.21.0"
   },
   "dependencies": {
-    "dbstream": "https://github.com/panoplyio/dbstream#v1.0.3",
+    "dbstream": "git+https://github.com/panoplyio/dbstream#v1.0.3",
     "fs-reverse": "0.0.2",
     "sift": "0.0.18"
   }
