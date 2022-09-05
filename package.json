@@ -1,6 +1,6 @@
 {
   "name": "dbstream-fs",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "File-system based database compatible with the Database Stream API",
   "main": "fs.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/avinoamr/dbstream-fs.git"
+    "url": "https://github.com/panoplyio/dbstream-fs.git"
   },
   "keywords": [
     "database",
@@ -20,14 +20,14 @@
   "author": "Roi Avinoam",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/avinoamr/dbstream-fs/issues"
+    "url": "https://github.com/panoplyio/dbstream-fs/issues"
   },
-  "homepage": "https://github.com/avinoamr/dbstream-fs",
+  "homepage": "https://github.com/panoplyio/dbstream-fs",
   "devDependencies": {
     "mocha": "^1.21.0"
   },
   "dependencies": {
-    "dbstream": "^1.0.1",
+    "dbstream": "git+https://github.com/panoplyio/dbstream#v1.0.3",
     "fs-reverse": "0.0.2",
     "sift": "0.0.18"
   }
